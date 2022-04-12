@@ -11,7 +11,7 @@ const HomePage = () => {
       <div className="flex flex-col">
         <div className="flex flex-col justify-center items-center">
           <h1 className="font-display text-7xl text-center font-extrabold mt-12">
-            it's all about you.
+            it&apos;s all about you.
           </h1>
           <p className="font-body text-sm text-gray-400 text-center mt-2">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
