@@ -4,7 +4,15 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      display: ["Halant", "sans-serif"],
+      body: ["Nunito-Sans", "sans-serif"],
+    },
+    extend: {
+      colors: {
+        "midnight-green": "#073B4C",
+      },
+    },
+    plugins: [],
   },
-  plugins: [],
 };
