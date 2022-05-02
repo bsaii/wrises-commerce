@@ -12,12 +12,12 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-[#020202] text-gray-50 relative h-auto w-full px-5">
+      <main className="container mx-auto bg-white relative h-auto w-full px-5 md:px-10 lg:px-20">
         <Nav />
         <HomePage />
       </main>
 
-      <footer className="p-4 bg-[#020202] text-gray-50 sm:p-6 ">
+      <footer className="p-4 bg-[#020202] text-gray-50 sm:p-6 pb-20 ">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <a href="#" className="flex items-center">

@@ -8,24 +8,24 @@ const HomePage = () => {
   return (
     <div>
       {/* Hero */}
-      <div className="flex flex-col">
-        <div className="flex flex-col justify-center items-center">
-          <h1 className="font-display text-7xl text-center font-extrabold mt-12">
-            it&apos;s all about you.
-          </h1>
-          <p className="font-body text-sm text-gray-400 text-center mt-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-            voluptate similique, quam magnam consectetur molestiae!
-          </p>
-          <button className="mt-6 bg-blue-600 w-28 h-9 rounded font-semibold z-10">
-            Shop Now
-          </button>
+      <div className="container mx-auto h-screen sm:flex sm:flex-row-reverse sm:bg-gray-100 md:justify-center md:items-center md:h-auto md:px-12 lg:h-auto lg:px-28 lg:py-20">
+        {/* image */}
+        <div className="bg-gray-200 sm:bg-gray-100 p-4 rounded h-1/2 flex justify-center items-center sm:basis-1/2">
+          <Image src="/img/watch1.png" width={450} height={450} />
         </div>
 
-        {/* image */}
-        <div className="flex justify-center items-center -mt-8 mb-2">
-          <Image src="/watch3.png" alt="watch" width={400} height={400} />
+        {/*  */}
+        <div className="flex flex-col items-center text-center h-1/2 mt-4 sm:basis-1/2 sm:items-start sm:text-left">
+          <h6 className="bg-yellow-400 w-fit px-2 font-body font-thin text-xs my-2 text-slate-700 uppercase">empire collection</h6>
+          <h1 className="font-display text-3xl lg:text-7xl text-slate-900 font-extrabold tracking-tight uppercase">The watch everyone desires!</h1>
+          <p className="font-body text-sm lg:text-lg lg:leading-5 text-slate-500 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, sunt?</p>
+
+          {/* Button */}
+          <div>
+            <button className="my-4 font-body font-semibold text-sm lg:text-base lg:px-11 text-blue-600 py-2 px-8 border-2 border-blue-600 uppercase tracking-tighter">shop now</button>
+          </div>
         </div>
+
       </div>
 
       {/* Services */}
